@@ -28,7 +28,6 @@ const TheirMessage = ({ lastMessage, message }) => {
           </div>
   )};
 </div>
-  );
-};
+  )};
 
 export default TheirMessage;

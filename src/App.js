@@ -1,5 +1,6 @@
 import {ChatEngine } from 'react-chat-engine';
 
+
 import LoginForm from './components/LoginForm';
 import ChatFeed from './components/ChatFeed';
 
@@ -17,7 +18,6 @@ const App = () => {
             renderChatFeed = {(chatAppProps) => <ChatFeed {... chatAppProps} />}
             />
             
-        
     );
 }
 

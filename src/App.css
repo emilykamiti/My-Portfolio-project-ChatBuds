@@ -7,11 +7,11 @@
 }
 
 .ce-chat-list {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: white !important;
 }
 
 .ce-chats-container {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: white !important;
 }
 
 .ce-active-chat-card {
@@ -26,7 +26,7 @@
 
 .ce-chat-form-container {
   padding-bottom: 20px !important;
-  background-color: black;
+  background-color: white;
 }
 
 .ce-text-input {
@@ -42,12 +42,12 @@
 }
 
 .ce-danger-button {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: white!important;
   border-radius: 22px !important;
 }
 
 .ce-settings {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: white !important;
 }
 
 .ce-autocomplete-input {
@@ -75,7 +75,7 @@
   height: 100%;
   width: 100%;
   overflow: scroll;
-  background-color: rgb(0, 0, 0);
+  background-color: white
 }
 
 .chat-title-container {
@@ -85,17 +85,17 @@
 }
 
 .chat-title {
-  color: rgb(159, 245, 173);
+  color: green;
   font-weight: 800;
   font-size: 24px;
 }
 
 .chat-subtitle {
-  color: rgb(0, 128, 0);
+  color: rgb(21, 247, 160);
   font-weight: 600;
   font-size: 12px;
   padding-top: 4px;
-  background-color: rgb(0, 0, 0);
+  background-color: white;
 }
 
 .message-row {
@@ -160,36 +160,37 @@
   bottom: 0px;
   width: calc(100% - 36px);
   padding: 18px;
-  background-color: rgb(0, 0, 0);
+  background-color: white;
 }
 
 .message-form {
   overflow: hidden;
-  border-radius: 6px;
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgb(159, 245, 173);
+  border-radius: 6%;
+  border: 1px solid white;
+  background-color: rgb(159, 245, 173) ;
 }
 
 .message-input {
   height: 40px;
   width: calc(100% - 132px);
-  background-color: rgb(66, 60, 60);
+  background-color: rgb(190, 185, 185);
   border: 1px solid rgb(66, 60, 60);
-  padding: 0px 18px;
+  padding: 0px px;
   outline: none;
   font-size: 15px;
 }
 
 .image-button {
+  height: 100px;
+  width: 100px;
+  padding: 0px 18px;
   cursor: pointer;
-  padding: 0px 12px;
-  height: 100%;
 }
 
 .send-button {
   height: 42px;
   background-color: rgb(159, 245, 173);
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid white;
   padding: 0px 18px;
   cursor: pointer;
 }
@@ -206,6 +207,8 @@
   font-size: 14px;
 }
 
+
+
 /* FORM STYLES */
 *,
 *::after,
@@ -220,7 +223,7 @@
   height: 100vh;
 	width: 100%;
   background: rgb(159, 245, 173);
-  background:rgb(0, 0, 0);
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,7 +235,7 @@
 	margin: 0 auto;
   padding: 1.5rem 2rem;
   border-radius: 0.2rem;
-  background-color: rgb(255, 255, 255);
+  background-color: grey;
   border: none;
   width: 90%;
   display: block;

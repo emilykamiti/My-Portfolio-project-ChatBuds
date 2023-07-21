@@ -18,7 +18,7 @@ const MyMessage = ({ message }) => {
     <div className="message" style={{ float: 'right', marginRight: '18px', color: 'white', backgroundColor: 'rgb(0, 128, 0)' }}>
       {message.text}
     </div>
-  );
-};
+  )};
 
 export default MyMessage;
+

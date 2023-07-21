@@ -8,7 +8,7 @@ const ChatFeed = (props) => {
   const chat = chats && chats[activeChat];
 
   const renderReadReceipts = (message, isMyMessage) => chat.people.map((person, index) => person.last_read === message.id && (
-    <div 
+    <div
       key={`read_${index}`}
       className="read-receipt"
       style={{
@@ -55,7 +55,6 @@ const ChatFeed = (props) => {
       <div style={{ height: '100px' }} />
       <div className="message-form-container">
         <MessageForm {...props} chatId={activeChat} />
-        
       </div>
     </div>
   );
